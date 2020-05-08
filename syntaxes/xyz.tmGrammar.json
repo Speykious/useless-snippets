@@ -34,7 +34,7 @@
 		},
 
 		"z": {
-			"match": "y",
+			"match": "z",
 			"name": "constant.language"
 		},
 
