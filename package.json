@@ -1,10 +1,7 @@
 {
 	"name": "useless-snippets",
 	"icon": "smiley-neutral.png",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Speykious/useless-snippets.git"
-	},
+	"repository": "https://github.com/Speykious/useless-snippets.git",
 	"displayName": "Useless Snippets",
 	"description": "Basically... Useless snippets.",
 	"version": "0.0.1",
@@ -18,11 +15,15 @@
 		"languages": [
 			{
 				"id": "text",
-				"extensions": [".txt"]
+				"extensions": [
+					".txt"
+				]
 			},
 			{
 				"id": "xyz",
-				"extensions": ["xyz"]
+				"extensions": [
+					"xyz"
+				]
 			}
 		],
 		"grammars": [
@@ -38,5 +39,8 @@
 				"path": "./snippets/snippets.json"
 			}
 		]
-	}
+	},
+	"main": "index.js",
+	"author": "Speykious <speykious.the.king@gmail.com>",
+	"license": "MIT"
 }
