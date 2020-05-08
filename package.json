@@ -18,15 +18,18 @@
 		"languages": [
 			{
 				"id": "text",
-				"aliases": [
-					"text", "Text",
-					"notes", "Notes",
-					"anything", "Anything"
-				],
-				"extensions": [
-					".txt"
-				],
-				"configuration": "./language-configuration.json"
+				"extensions": [".txt"]
+			},
+			{
+				"id": "xyz",
+				"extensions": ["xyz"]
+			}
+		],
+		"grammars": [
+			{
+				"language": "xyz",
+				"scopeName": "source.xyz",
+				"path": "./syntaxes/xyz.tmGrammar.json"
 			}
 		],
 		"snippets": [
