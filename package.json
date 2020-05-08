@@ -17,7 +17,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
+                "language": "text",
                 "path": "./snippets/snippets.json"
             }
         ]
