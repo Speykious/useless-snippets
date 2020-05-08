@@ -5,11 +5,11 @@
         "type": "git",
         "url": "https://github.com/Speykious/useless-snippets.git"
     },
-    "displayName": "useless-snippets",
+    "displayName": "Useless Snippets",
     "description": "Basically... Useless snippets.",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.45.0"
+        "vscode": "^1.44.0"
     },
     "categories": [
         "Snippets"
@@ -18,7 +18,7 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/snippets.json"
             }
         ]
     }
