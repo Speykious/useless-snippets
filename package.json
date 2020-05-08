@@ -1,25 +1,39 @@
 {
-    "name": "useless-snippets",
-    "icon": "smiley-neutral.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Speykious/useless-snippets.git"
-    },
-    "displayName": "Useless Snippets",
-    "description": "Basically... Useless snippets.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.44.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "text",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+	"name": "useless-snippets",
+	"icon": "smiley-neutral.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Speykious/useless-snippets.git"
+	},
+	"displayName": "Useless Snippets",
+	"description": "Basically... Useless snippets.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "text",
+				"aliases": [
+					"text", "Text",
+					"notes", "Notes",
+					"anything", "Anything"
+				],
+				"extensions": [
+					".txt"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "text",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
 }
