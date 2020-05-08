@@ -1,0 +1,25 @@
+{
+    "name": "useless-snippets",
+    "icon": "smiley-neutral.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Speykious/useless-snippets.git"
+    },
+    "displayName": "useless-snippets",
+    "description": "Basically... Useless snippets.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
