@@ -16,16 +16,34 @@
 		},
 
 		"letter": {
-			"match": "[xyz]",
-			"name": "keyword.letter"
+			"patterns": [
+				{ "include": "#x" },
+				{ "include": "#y" },
+				{ "include": "#z" }
+			]
+		},
+
+		"x": {
+			"match": "x",
+			"name": "keyword.operator"
+		},
+
+		"y": {
+			"match": "y",
+			"name": "constant.numeric"
+		},
+
+		"z": {
+			"match": "y",
+			"name": "constant.language"
 		},
 
 		"paren-expression": {
 			"begin": "\\(",
-			"end": "\\)",
 			"beginCaptures": {
 				"0": { "name": "punctuation.paren.open" }
 			},
+			"end": "\\)",
 			"endCaptures": {
 				"0": { "name": "punctuation.paren.close" }
 			},
